@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Request Form</title>
+    <style>
+        body{
+            margin: 20px;
+            padding: 10px;
+            background-color: white;
+            border: 10px solid black;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            width: 450px;
+            height: 700px;
+        }
+        label{
+            margin: 10px;
+            padding: 50px;
+            text-align: center;
+        }
+        input{
+            margin: 5px;
+            padding: 10px;
+            border: 3px solid rgb(10, 10, 10);
+            font-size: 20px;
+        }
+        textarea{
+            margin: 5px;
+            padding: 15px;
+            border: 3px solid rgb(3, 3, 3)
+            
+        }
+        h3{
+            padding: 5px;
+            font-size: 20px;
+            font-style: italic;
+            background-color: rgb(212, 212, 87);
+            color: black;
+            border-color: 5px solid black;
+            border-radius: 5px;
+        }
+        h1{
+            font-style: italic;
+            background-color: rgb(234, 236, 80);
+            color: black;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1 align="center">Submit Your Prayer Request</h1>
+    <table>
+    <tr>
+        <td>
+            <h3>Name</h3>
+            <br>
+            <label for="Name"></label>
+        </td>
+        <td>
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h3>Email</h3>
+            <br>
+            <label for="Email"></label>
+        </td>
+        <td>
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h3>Phone Number</h3>
+            <br>
+            <label for="Phone Number"></label>
+        </td>
+        <td>
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h3>Prayer Request</h3>
+            <br>
+            <label for="Prayer Request"></label>
+        </td>
+        <br>
+        <td>
+            <textarea name="text" placeholder="Drop Your Prayer Request" cols="25" rows="5"></textarea>
+            <input type="Submit" value="Submit">
+        </td>
+    </tr>
+    
+</body>
+</html>
